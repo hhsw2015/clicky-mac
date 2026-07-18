@@ -25,3 +25,7 @@ state/
 
 __pycache__/
 *.pyc
+
+# Local-only reference scripts — do not commit
+references/
+SPEC.md
