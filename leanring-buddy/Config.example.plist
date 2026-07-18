@@ -27,6 +27,9 @@
     <key>KeychainService</key>
     <string>com.example.clicky-mac.session</string>
 
+    <key>CustomHeaderPrefix</key>
+    <string>X-Client-</string>
+
     <!-- OPTIONAL (defaults shown) -->
     <key>RealtimeModelOverride</key>
     <string></string>
