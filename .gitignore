@@ -1,0 +1,24 @@
+worker/node_modules/
+worker/.dev.vars
+.DS_Store
+*.xcuserstate
+build/
+releases/
+.claude/
+coding-plans/
+
+# Config with real proxy URLs — never commit
+Configuration/Config.plist
+Configuration/Config.local.plist
+Config.plist
+Config.local.plist
+leanring-buddy/Config.plist
+
+# Xcode user state
+xcuserdata/
+*.xcuserdatad/
+
+# Local reference-script state (contains real tokens)
+references/state/
+state/
+*.env
