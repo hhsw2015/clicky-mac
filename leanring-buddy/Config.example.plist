@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- REQUIRED -->
+    <key>ProxyBaseURL</key>
+    <string>https://proxy.example.com</string>
+
+    <key>EphemeralTokenPath</key>
+    <string>/realtime/session</string>
+
+    <key>HigherModelPath</key>
+    <string>/chat</string>
+
+    <key>RealtimeEndpoint</key>
+    <string>wss://api.openai.com/v1/realtime</string>
+
+    <key>AuthTokenEndpoint</key>
+    <string>https://auth.example.com/token</string>
+
+    <key>AuthPublicKey</key>
+    <string>PUBLIC_ANON_KEY_PLACEHOLDER</string>
+
+    <key>AuthGoogleAuthorizeURL</key>
+    <string>https://auth.example.com/authorize?provider=google&amp;redirect_to=clicky-mac://auth-callback</string>
+
+    <key>KeychainService</key>
+    <string>com.example.clicky-mac.session</string>
+
+    <!-- OPTIONAL (defaults shown) -->
+    <key>RealtimeModelOverride</key>
+    <string></string>
+
+    <key>ClientBundleIdOverride</key>
+    <string></string>
+
+    <key>HigherModelClientCapabilities</key>
+    <array>
+        <string>clipboard_copy</string>
+    </array>
+
+    <key>HigherModelEnvOverride</key>
+    <dict/>
+
+    <key>RequestTimeoutSeconds</key>
+    <integer>30</integer>
+
+    <key>AudioSampleRate</key>
+    <integer>24000</integer>
+
+    <key>RefreshLeadTimeSeconds</key>
+    <integer>60</integer>
+
+    <key>EphemeralRefreshIntervalSeconds</key>
+    <integer>480</integer>
+
+    <key>AssistantWelcomeMessage</key>
+    <string>how can I help?</string>
+
+    <key>AssistantEscalationHint</key>
+    <string>Something went wrong. Try again in a moment.</string>
+</dict>
+</plist>
